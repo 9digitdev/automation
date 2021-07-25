@@ -2,7 +2,7 @@
 
 ## Exercise QA Automation: A smoke test to verify the landing page functionality
 
-This code runs 2 simple ui automated smoke tests uing jest playwright framework. The framework uses a page object model. Tests are in  ./src/tests and models are in ./src/models. the main purpose for this approach is to keep tests clean and easy to read. With the adoption of vue and react for modern user interfaces (UI) having automated test created in the same coding language as the UI helps with adoption of the test suite. 
+This code runs 2 simple ui automated smoke tests using jest playwright framework. The framework uses a page object model. Tests are in  ./src/tests and models are in ./src/models. the main purpose for this approach is to keep tests clean and easy to read. With the adoption of vue and react for modern user interfaces (UI) having automated test created in the same coding language as the UI helps with adoption of the test suite. Using the Jest Playwright framework it allows for testing with chromium, firefox and  webkit browser with no additional coding changes. 
 
 ### steps to run tests  
 
@@ -34,3 +34,14 @@ launchOptions: {
     }  
 
 ---
+
+### view test results
+
+Test results are stored in ./testresults  
+jest-junit.xml  
+results.html  
+
+
+### Screen recording  
+A screen recording is provided of the tests running both tests in all three browsers  
+Smoke-test-recording.mov
